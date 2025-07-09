@@ -1,0 +1,304 @@
+<html>
+
+<head>
+<style>body {
+background-color: darkslategray;
+font-family: Helvetica;
+color: aqua;
+}
+
+nav {
+position: fixed;
+top: 0;
+width: 100%;
+height: 300px;
+} 
+
+input {
+margin: 3px;
+} 
+
+.qsn {
+padding: 1rem;
+margin: 2rem auto;
+border-radius: 20px;
+background-color: black;
+font-size: 20px;
+}
+
+#sbutton {
+display: block;
+margin: auto;
+text-align: center;
+background-color: black;
+border:solid;
+border-width: 5px;
+color: aqua;
+font-size: 70px;
+height: 150px;
+width: 100%;
+border-radius: 75px;
+}
+
+</style>
+
+
+</head>
+<body>
+<div>
+<form>
+
+<div class="qsn">
+<h2>1. You wake up and everything's on fire. What's your first instinct?</h2><br>
+<label><input type="radio" name="q1" value="0">Gather your allies</label><br>
+<label><input type="radio" name="q1" value="3">Rally the troops</label><br>
+<label><input type="radio" name="q1" value="5">Assess the damage</label><br>
+<label><input type="radio" name="q1" value="10">Start pinging everyone like "hey uh. why weren't you online?"</label><br>
+</div>
+
+<div class="qsn">
+<h2>2. Pick a job vibe</h2><br>
+<label><input type="radio" name="q2" value="0">Fancy title, minimum work, all the credit</label><br>
+<label><input type="radio" name="q2" value="3">Glorified bouncer</label><br>
+<label><input type="radio" name="q2" value="5">Accountant but make it prestige</label><br>
+<label><input type="radio" name="q2" value="10">Middle manager with a superiority complex</label><br>
+</div>
+
+<div class="qsn">
+<h2>3. You see a new member ask a dumb question. What do you do?</h2><br>
+<label><input type="radio" name="q3" value="0">Ignore them. Someone else will deal with it</label><br>
+<label><input type="radio" name="q3" value="3">Initiate hazing rituals and demand they 1v1 you</label><br>
+<label><input type="radio" name="q3" value="5">Budget them a starter pack then ghost</label><br>
+<label><input type="radio" name="q3" value="10">Add them to the newbie tracking doc and pretend you'll message them later</label><br>
+</div>
+
+<div class="qsn">
+<h2>4. Choose a weapon</h2><br>
+<label><input type="radio" name="q4" value="0">Tongue so sharp you can't lick your lips without bleeding</label><br>
+<label><input type="radio" name="q4" value="3">Bazooka. Boom!</label><br>
+<label><input type="radio" name="q4" value="5">Sniper rifle. You're nothing if not precise</label><br>
+<label><input type="radio" name="q4" value="10">Whip. Useful for handling rogue members also</label><br>
+</div>
+
+<div class="qsn">
+<h2>5. Pick a motto</h2><br>
+<label><input type="radio" name="q5" value="0">Perception is everything</label><br>
+<label><input type="radio" name="q5" value="3">Hit fast, hit hard, log off</label><br>
+<label><input type="radio" name="q5" value="5">In ROI We Trust</label><br>
+<label><input type="radio" name="q5" value="10">Have you bought your spies today?</label><br>
+</div>
+
+<div class="qsn">
+<h2>6. You're in a meeting. You are:</h2><br>
+<label><input type="radio" name="q6" value="0">Charming everyone and lowkey manipulating the outcome</label><br>
+<label><input type="radio" name="q6" value="3">Bored and doodling battle plans on your notebook</label><br>
+<label><input type="radio" name="q6" value="5">Calculating how many resources this is costing per minute</label><br>
+<label><input type="radio" name="q6" value="10">Taking notes. Detailed notes. And color coded</label><br>
+</div>
+
+<div class="qsn">
+<h2>7. Your toxic trait is:</h2><br>
+<label><input type="radio" name="q7" value="0">Thinking you can fix everything with charisma</label><br>
+<label><input type="radio" name="q7" value="3">Valuing combat readiness over everything</label><br>
+<label><input type="radio" name="q7" value="5">Hoarding resources "for the good of the group"</label><br>
+<label><input type="radio" name="q7" value="10">Thinking you can read newbies like a book</label><br>
+</div>
+
+<div class="qsn">
+<h2>8. You have to stay up late. Why?</h2><br>
+<label><input type="radio" name="q8" value="0">Talking to some important rando from another alliance</label><br>
+<label><input type="radio" name="q8" value="3">War broke out and you're micromanaging 7 fronts</label><br>
+<label><input type="radio" name="q8" value="5">You're optimizing the alliance's growth curve</label><br>
+<label><input type="radio" name="q8" value="10">You're cleaning everyone else's mess. Again</label><br>
+</div>
+
+<div class="qsn">
+<h2>9. You just rage quit. What pushed you?</h2><br>
+<label><input type="radio" name="q9" value="0">Your brilliant strategy was ignored</label><br>
+<label><input type="radio" name="q9" value="3">No one showed up for the blitz</label><br>
+<label><input type="radio" name="q9" value="5">Someone bought moonlanding with alliance funds</label><br>
+<label><input type="radio" name="q9" value="10">We have been trying to reach you about your car's extended warranty</label><br>
+</div>
+
+<div class="qsn">
+<h2>10. You have to train a newbie. How do you feel?</h2><br>
+<label><input type="radio" name="q10" value="0">Let's hope they can talk like a normal human being</label><br>
+<label><input type="radio" name="q10" value="3">If they can handle me yelling, they'll be fine</label><br>
+<label><input type="radio" name="q10" value="5">I made them a 30 page guide</label><br>
+<label><input type="radio" name="q10" value="10">God give me strength</label><br>
+</div>
+
+<input type="submit" id="sbutton"> 
+
+
+</form>
+</div>
+
+<script>
+
+
+document.querySelector("form").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  let score = 0;
+
+  for (let i = 1; i <= 10; i++) {
+    let answer = document.querySelector(`input[name="q${i}"]:checked`);
+    if (answer) {
+      score = score + parseInt(answer.value);
+    }
+  }
+
+  if (score === 0) {document.body.innerHTML = ` 
+
+<header>
+    <div style="text-align:center; padding: 3px; color:aqua; font-family:Impact; background-color:black; border-radius:10px; width:100%;">
+      <h1>YOUR DEPARTMENT OF CHOICE IS</h1>
+      
+      <h2>MIKU TIME (Miku Time)</h2>
+    </div>
+  </header>
+
+  <main>
+    <div style="text-align:center; padding: 3px; margin-top:3rem; color:aqua; font-family:placeholder; background-color:black; border-radius:10px; width:100%;">
+      <p>
+        Miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time.<br>
+Miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time</p>
+<div style="margin-top: 2rem;">
+<p>
+Miku Time: Miku time miku time miku time miku time<br>
+Miku: Time miku time miku time miku time miku time miku time miku<br>
+Time: Miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time miku time<br>
+      </p>
+</div>
+    </div>
+  </main>
+<style>
+body {
+background-color: darkslategray;
+} 
+</style>
+`
+}
+else if (score > 0 && score <= 24) {
+document.body.innerHTML = ` 
+
+<header>
+    <div style="text-align:center; padding: 3px; color:aqua; font-family:Impact; background-color:black; border-radius:10px; width:100%;">
+      <h1>YOUR DEPARTMENT OF CHOICE IS</h1>
+      
+      <h2>FOREIGN AFFAIRS (FA)</h2>
+    </div>
+  </header>
+
+  <main>
+    <div style="text-align:center; padding: 3px; margin-top:3rem; color:aqua; font-family:placeholder; background-color:black; border-radius:10px; width:100%;">
+      <p>
+        Congrats. You're the pnw equivalent of a slytherin. You’re a professional talker, alliance whisperer, and subtle power-wielder behind the scenes. Your job might seem chill, but when stuff hits the fan, you’re the one steering the entire ship with nothing but vibes and social manipulation. People may not always see what you're doing, but that’s fine. the real moves happen in the DMs anyway.</p>
+<div style="margin-top: 2rem;">
+<p>
+Perks: Big brain energy, low actual workload, high influence<br>
+Vibe: Ice-cold poker face with a +20 charisma modifier<br>
+Weakness: Occasionally forgets to login and gets beiged without even realizing they were at war<br>
+      </p>
+</div>
+    </div>
+  </main>
+<style>
+body {
+background-color: darkslategray;
+} 
+</style>
+`
+} else if (score > 24 && score <= 44) {
+document.body.innerHTML = `  
+<header>
+    <div style="text-align:center; padding: 3px; color:aqua; font-family:Impact; background-color:black; border-radius:10px; width:100%;">
+      <h1>YOUR DEPARTMENT OF CHOICE IS</h1>
+      <h2>MILITARY AFFAIRS (MA)</h2>
+    </div>
+  </header>
+
+  <main>
+    <div style="text-align:center; padding: 3px; margin-top:3rem; color:aqua; font-family:placeholder; background-color:black; border-radius:10px; width:100%;">
+<div>
+      <p>
+        You were built for conflict and you thrive in chaos. Whether it’s war games or real beef, you’re the person people turn to when the alliance is on fire and everyone else is crying. You're battle-hardened, caffeinated, and a little insane. That's fine. Aren't we all? Peace times bore you. You're only truly alive when you're yelling orders at 3am with five tabs open and 57 different people in your dms consulting you about war direction simultaneously.</p>
+</div>
+
+<div style="margin-top: 2rem;">
+<p>
+Perks: Adrenaline, respect, and the thrill of organized violence<br>
+Vibe: Chaotic but competent. Possessing a god complex on cooldown<br>
+Weakness: Doesn’t know what “self-care” means
+      </p>
+    </div>
+  </main>
+<style>
+body {
+background-color: darkslategray;
+} 
+`
+} else if (score > 44 && score <= 69) {
+document.body.innerHTML =`
+
+<header>
+    <div style="text-align:center; padding: 3px; color:aqua; font-family:Impact; background-color:black; border-radius:10px; width:100%;">
+      <h1>YOUR DEPARTMENT OF CHOICE IS</h1>
+      
+      <h2>ECONOMIC AFFAIRS (EA)</h2>
+    </div>
+  </header>
+
+  <main>
+    <div style="text-align:center; padding: 3px; margin-top:3rem; color:aqua; font-family:placeholder; background-color:black; border-radius:10px; width:100%;">
+      <p>
+        You’re not here to waste time.. or anything else. While everyone is too busy throwing hands or having feelings, you’re stacking resources, optimizing growth, and making sure your alliance doesn’t go bankrupt. You’re basically the mob accountant of the group in your quiet efficiency, and you're known to be kinda scary when crossed. People underestimate you until they realize you control literally everything they need to function.</p>
+<div style="margin-top: 2rem;">
+<p>
+Perks: Constant leverage, actual usefulness, inner peace<br>
+Vibe: Facts before feelings. Numbers hurt yanno<br>
+Weakness: Gets real salty when people don’t follow the plan
+      </p>
+</div>
+    </div>
+  </main>
+<style>
+body {
+background-color: darkslategray;
+} 
+</style>
+  `
+} else {
+document.body.innerHTML =`
+  <header>
+    <div style="text-align:center; padding: 3px; color:aqua; font-family:Impact; background-color:black; border-radius:10px; width:100%;">
+      <h1>YOUR DEPARTMENT OF CHOICE IS</h1>
+     
+      <h2>INTERNAL AFFAIRS (IA)</h2>
+    </div>
+  </header>
+
+  <main>
+    <div style="text-align:center; padding: 3px; margin-top:3rem; color:aqua; font-family:placeholder; background-color:black; border-radius:10px; width:100%;">
+      <p>
+        You are the glue holding this dysfunctional little family together. You track the members, run the vibe check, fix the drama, enforce the rules, and probably do 3 other things nobody thanked you for. You have a god-tier memory, the patience of a saint, and the emotional capacity to manage a bunch of gremlins who forgot to log in. It’s repetitive. It’s exhausting. But without you, this whole place would combust in like 12 hours.</p><div style="margin-top: 2rem;">
+<p>
+Perks: God mode over member access, full context on every drama, emotional dominance<br>
+Vibe: Dead-eyed supervisor with a spreadsheet for your sins<br>
+Weakness: Might explode from the sheer amount of stupid you have to deal with
+      </p>
+</div>
+    </div>
+  </main>
+<style>
+body {background-color: darkslategray;}
+</style>
+
+  `; 
+}
+});
+
+</script>
+</body>
+</html>
